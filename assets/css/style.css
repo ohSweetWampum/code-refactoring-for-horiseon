@@ -7,24 +7,24 @@
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* got rid of .header class selector in favor of the header element selector for all of the selectors that had .header in it. There is only 1 header in the html so i can do this */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 /* replaced div element with nav element on the succeeding 3 .header class selector blocks as I had made the same swap with the elements in the html file and they need to match in order for the styling to be applied */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
