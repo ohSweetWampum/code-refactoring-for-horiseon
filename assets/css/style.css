@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* got rid of .header class selector in favor of the header element selector for all of the selectors that had .header in it. There is only 1 header in the html so i can do */
+/* got rid of .header class selector in favor of the header element selector for all of the selectors in this css file that had .header in it. There is only 1 header in the html so i can do that. Saves a little bit of time/space */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* replaced div element with nav element on the succeeding 3 .header class selector blocks as I had made the same swap with the elements in the html file and they need to match in order for the styling to be applied */
+/* replaced all <div> elements with <nav> elements in the html file, so in the CSS file I changed all div elements to nav so that the CSS and HTML file terms match*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -88,19 +88,19 @@ p {
     background-color: #2589bd;
 }
 
-/*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it a by "aside-properties" as all three selectors had the same properties. This is a huge time and space saver */
+/*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it "aside-properties" as all three old selectors had the same properties. This is a huge time and space saver */
 .aside-properties {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it a by "aside-properties" as all three selectors had the same properties. This is a huge time and space saver */
+/*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it "aside-properties" as all three old selectors had the same properties. This is a huge time and space saver */
 .aside-properties h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it a by "aside-properties" as all three selectors had the same properties. This is a huge time and space saver */
+/*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it "aside-properties" as all three old selectors had the same properties. This is a huge time and space saver */
 .aside-properties img {
     display: block;
     margin: 10px auto;
@@ -108,7 +108,7 @@ p {
 
 }
 
-/*  Did the same thing here as the comment above. Deleted all the 3 different class selctors (.search-engine-optimization, .online-reputation-management, .social-media-marketing) and combined them into one selector and called it a by ".main-sections" as all three selectors had the same properties. This is a huge time and space saver */
+/*  Did the same thing here as the comment above. Deleted all the 3 different class selctors (.search-engine-optimization, .online-reputation-management, .social-media-marketing) and combined them into one selector and called it ".main-sections" as all three old selectors had the same properties. This is a huge time and space saver */
 .main-sections {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,14 +127,14 @@ p {
     font-size: 36px;
 }
 
-/* got ric of the footer class, no need for a class when there is only 1 footer, changed it to a footer element selector */
+/* got ride of the footer class, no need for a class when there is only 1 footer, changed it to a footer element selector */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* changed from .footer to footer */
 footer h2 {
     font-size: 20px;
 }
