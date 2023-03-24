@@ -46,7 +46,9 @@ This refactoring was done by:
 <figure class="hero"></figure>
 ```
 
-As you can see I introduced semantic elements to the code such as; `html<header>, <nav>, and <figure>`
+As you can see I introduced semantic elements to the code such as; ```html
+
+<header>, <nav>, and <figure> ```
 
 ## Example of CSS Code Refactoring
 
@@ -63,13 +65,13 @@ As you can see I introduced semantic elements to the code such as; `html<header>
 The website has a navigation bar which your can use to jump to the topic your are interested in.
 
 ```md
-![image](assets/images/Screenshot 2023-03-23 at 8.54.14 PM.png)
+![alt text](/assets/images/Screenshot%202023-03-23%20at%208.54.26%20PM.png)
 ```
 
 Depending on what topic you selcted, you will be directed to one of these three section where you can read more about the topic. An aside section describes more benefits of using Horiseon's services.
 
 ```md
-![image](assets/images/Screenshot 2023-03-23 at 8.54.26 PM.png)
+![image](/assets/images/Screenshot%202023-03-23%20at%208.54.14%20PM.png)
 ```
 
 ## Learning Points
@@ -84,12 +86,18 @@ Main things I learned were:
 ```md
 Matthew Gibson
 
-- [Portfolio]https://github.com/ohSweetWampum)
+- [Portfolio](https://github.com/ohSweetWampum)
 - [LinkedIn](https://www.linkedin.com/in/matthew-gibson-6b9b12237/)
 - [Github](https://github.com/ohSweetWampum)
 ```
 
 ## Credits
+
+```md
+[w3schools.com](https://www.w3schools.com/css/css_selectors.asp)
+
+[w3schools.com](https://www.w3schools.com/html/html5_semantic_elements.asp)
+```
 
 ## License
 
