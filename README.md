@@ -66,9 +66,7 @@ The website has a navigation bar which your can use to jump to the topic your ar
 
 Depending on what topic you selcted, you will be directed to one of these three section where you can read more about the topic. An aside section describes more benefits of using Horiseon's services.
 
-```md
 ![image](/assets/images/Screenshot%202023-03-23%20at%208.54.14%20PM.png)
-```
 
 ## Learning Points
 
@@ -79,21 +77,17 @@ Main things I learned were:
 
 ## Author Info
 
-```md
 Matthew Gibson
 
 - [Portfolio](https://github.com/ohSweetWampum)
 - [LinkedIn](https://www.linkedin.com/in/matthew-gibson-6b9b12237/)
 - [Github](https://github.com/ohSweetWampum)
-```
 
 ## Credits
 
-```md
 [w3schools.com](https://www.w3schools.com/css/css_selectors.asp)
 
 [w3schools.com](https://www.w3schools.com/html/html5_semantic_elements.asp)
-```
 
 ## License
 
