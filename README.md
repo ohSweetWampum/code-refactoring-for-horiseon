@@ -6,7 +6,7 @@
   [Learn about HTML](https://html.spec.whatwg.org/#is-this-html5?)
 
 - CSS
-  [Learn about CSS](hhttps://www.w3.org/TR/CSS/#css)
+  [Learn about CSS](https://www.w3.org/TR/CSS/#css)
 
 - Git
   [Learn about Git](https://git-scm.com/)
