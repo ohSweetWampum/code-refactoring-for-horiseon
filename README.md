@@ -2,17 +2,20 @@
 
 ## Technology Used
 
-| Technology Used |                                              Resource URL                                              |
-| --------------- | :----------------------------------------------------------------------------------------------------: |
-| HTML            | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| CSS             |  [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)  |
-| Git             |                              [https://git-scm.com/](https://git-scm.com/)                              |
+- HTML
+  [Learn about HTML](https://html.spec.whatwg.org/#is-this-html5?)
+
+- CSS
+  [Learn about CSS](hhttps://www.w3.org/TR/CSS/#css)
+
+- Git
+  [Learn about Git](https://git-scm.com/)
 
 ## Description
 
 [Visit the Deployed Site](https://ohsweetwampum.github.io/code-refactoring-for-horiseon/)
 
-Code refactoring is the process of restructuring exsisting code to improve it's structure in a way that does not change it's original functionality. Horiseon wanted their code to be more accessible and consolidated, but did not want the webpage behavior to change, so it was decided that I should refactor it.
+Code refactoring is the process of restructuring exsisting code to improve it's structure in a way that does not change it's original functionality. Horiseon wanted their code to be more accessible so that people with disabilities can navigate the website, and so the page will rank higher in search engines. Horieson aslo wanted the code consolidated, but did not want the webpage behavior to change. For all these reasons, it was decided that I should refactor it.
 
 This refactoring was done by:
 
