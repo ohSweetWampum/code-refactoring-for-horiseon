@@ -1,76 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon Marketing Agency </title>   
-    <!-- Changed title from "website" to "Horiseon Marketing Agency to indicate to user that they are on Horiseon's page and that Horiseon is a marketing agency " -->
-</head>
-
-
-
-<body>
-    
-    
-    <!-- changed from a  <div> element to a <header> element as it better describes the actual layout of the webpage and is a semantic element -->
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Horiseon Marketing Agency </title>   
+        <!-- Changed title from "website" to "Horiseon Marketing Agency to indicate to user that they are on Horiseon's page and that Horiseon is a marketing agency " -->
+    </head>
+    <body>
+        <!-- changed from a  <div> element to a <header> element as it better describes the actual layout of the webpage and is a semantic element -->
         <!-- got ride of class=header -->
-    <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- replcaed <div> tags with <nav> tags as this is actually dexcribes what this <ul> is  -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-    
-    <!-- changed from a  <div> element to a <figure> element as it better describes the actual layout of the webpage and is a semantic element-->
-    <figure class="hero"></figure>
-    <main class="content">
-        <article>
+        <header>
+            <h1>Hori<span class="seo">seo</span>n</h1>
+            <!-- replcaed <div> tags with <nav> tags as this is actually dexcribes what this <ul> is  -->
+                 <nav>
+                    <ul>
+                        <li>
+                            <a href="#search-engine-optimization">Search Engine Optimization</a>
+                        </li>
+                        <li>
+                            <a href="#online-reputation-management">Online Reputation Management</a>
+                        </li>
+                        <li>
+                            <a href="#social-media-marketing">Social Media Marketing</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <!-- changed from a  <div> element to a <figure> element as it better describes the actual layout of the webpage and is a semantic element-->
+        <figure class="hero"></figure>
+        <main class="content">
+            <article>
             <!-- added <article> element so that I can group the following 3 section elements inside   -->
-        <!-- changed the opening <div> element to a <main> element as it better describes the actual layout of the webpage and is a semantic element. I then replaced all the <div> elements within the newly named <main> element with <section> elements for the same reasons -->
-
+            <!-- changed the opening <div> element to a <main> element as it better describes the actual layout of the webpage and is a semantic element. I then replaced all the <div> elements within the newly named <main> element with <section> elements for the same reasons -->
+            <!-- I added an alt attribute to all the <img> elements in the 3 succeeding <section> elements. Now the user can get a description of what the image is if the image fails to load or if the user is utilizing a screen reader-->
+            <!-- added an id attribute to the SEO section, this fixes the broken link -->
+                <section id="search-engine-optimization" class="main-sections">
+                    <img src="./assets/images/search-engine-optimization.jpg" alt="Picture of a notebook on a desk with the cover of the notebook depicting all the components of Search Engine Optimization (SEO)  " class="float-left" />
+                    <h2>Search Engine Optimization</h2>
+                    <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                    </p>
+                </section>
+                <section id="online-reputation-management" class="main-sections">
+                    <img src="./assets/images/online-reputation-management.jpg" alt="Picture of someone using their laptop computer. On their computer screen is a collection of charts with a bold header of REPUTATION" class="float-right" />
+                    <h2>Online Reputation Management</h2>
+                    <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                    </p>
+                </section>
+                <section id="social-media-marketing" class="main-sections">
+                     <img src="./assets/images/social-media-marketing.jpg" alt="Bird's eye view of people seated at a table for a meeting. On the table there are many different icons that are associated with social media " class="float-left" />
+                    <h2>Social Media Marketing</h2>
+                    <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                    </p>
+                </section>
+            </article>
+        <!-- added <article> as it is semantic -->
+        </main>
+        
+        
+        
+        <!-- changed from a  <div> element to a <aside> element as it better describes the actual layout of the webpage and is a semantic element. Within this newly named <aside> element I replaced all the <div> elements with <section> elements for the same reasons -->
         <!-- I added an alt attribute to all the <img> elements in the 3 succeeding <section> elements. Now the user can get a description of what the image is if the image fails to load or if the user is utilizing a screen reader-->
-<!-- added an id attribute to the SEO section, this fixes the broken link -->
-        <section id="search-engine-optimization" class="main-sections">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Picture of a notebook on a desk with the cover of the notebook depicting all the components of Search Engine Optimization (SEO)  " class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </section>
-        <section id="online-reputation-management" class="main-sections">
-            <img src="./assets/images/online-reputation-management.jpg" alt="Picture of someone using their laptop computer. On their computer screen is a collection of charts with a bold header of REPUTATION" class="float-right" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        </section>
-        <section id="social-media-marketing" class="main-sections">
-            <img src="./assets/images/social-media-marketing.jpg" alt="Bird's eye view of people seated at a table for a meeting. On the table there are many different icons that are associated with social media " class="float-left" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </section>
-    </article>
-    <!-- added <article> as it is semantic -->
-    </main>
-    <!-- changed from a  <div> element to a <aside> element as it better describes the actual layout of the webpage and is a semantic element. Within this newly named <aside> element I replaced all the <div> elements with <section> elements for the same reasons -->
-
-         <!-- I added an alt attribute to all the <img> elements in the 3 succeeding <section> elements. Now the user can get a description of what the image is if the image fails to load or if the user is utilizing a screen reader-->
             <!-- changed all of the class names inside the <aside> element to aside-properties -->
     <aside class="benefits">
         <section class="aside-properties">
@@ -96,12 +85,11 @@
         </section>
     </aside>
     <!--changed from a  <div> element to a <footer> element as it better describes the actual layout of the webpage and is a semantic element -->
-    <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
+        <footer class="footer">
+            <h2>Made with ❤️️ by Horiseon</h2>
+            <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer>
-</body>
-
+            </p>
+        </footer>
+    </body>
 </html>

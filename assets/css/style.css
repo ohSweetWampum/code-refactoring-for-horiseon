@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /* got rid of .header class selector in favor of the header element selector for all of the selectors that had .header in it. There is only 1 header in the html so i can do */
 header {
     padding: 20px;
@@ -23,6 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /* replaced div element with nav element on the succeeding 3 .header class selector blocks as I had made the same swap with the elements in the html file and they need to match in order for the styling to be applied */
 header nav {
     padding-top: 15px;
@@ -85,6 +87,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it a by "aside-properties" as all three selectors had the same properties. This is a huge time and space saver */
 .aside-properties {
     margin-bottom: 32px;
@@ -123,7 +126,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 .footer {
     padding: 30px;
