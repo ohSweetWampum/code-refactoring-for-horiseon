@@ -127,13 +127,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* got ric of the footer class, no need for a class when there is only 1 footer, changed it to a footer element selector */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
