@@ -63,13 +63,13 @@ As you can see I introduced semantic elements to the code such as; `html<header>
 The website has a navigation bar which your can use to jump to the topic your are interested in.
 
 ```md
-![alt text](assets/images/Screenshot 2023-03-23 at 8.54.14 PM.png)
+![image](assets/images/Screenshot 2023-03-23 at 8.54.14 PM.png)
 ```
 
 Depending on what topic you selcted, you will be directed to one of these three section where you can read more about the topic. An aside section describes more benefits of using Horiseon's services.
 
 ```md
-![alt text](assets/images/Screenshot 2023-03-23 at 8.54.26 PM.png)
+![image](assets/images/Screenshot 2023-03-23 at 8.54.26 PM.png)
 ```
 
 ## Learning Points
@@ -82,7 +82,7 @@ Main things I learned were:
 ## Author Info
 
 ```md
-##Matthew Gibson
+Matthew Gibson
 
 - [Portfolio]https://github.com/ohSweetWampum)
 - [LinkedIn](https://www.linkedin.com/in/matthew-gibson-6b9b12237/)
