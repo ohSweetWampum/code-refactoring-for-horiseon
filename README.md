@@ -46,9 +46,7 @@ This refactoring was done by:
 <figure class="hero"></figure>
 ```
 
-As you can see I introduced semantic elements to the code such as; ```html
-
-<header>, <nav>, and <figure> ```
+As you can see I introduced semantic elements to the code such as; `html<header>, <nav>, and <figure> `
 
 ## Example of CSS Code Refactoring
 
@@ -64,9 +62,7 @@ As you can see I introduced semantic elements to the code such as; ```html
 
 The website has a navigation bar which your can use to jump to the topic your are interested in.
 
-```md
 ![alt text](/assets/images/Screenshot%202023-03-23%20at%208.54.26%20PM.png)
-```
 
 Depending on what topic you selcted, you will be directed to one of these three section where you can read more about the topic. An aside section describes more benefits of using Horiseon's services.
 
