@@ -16,13 +16,13 @@ Code refactoring is the process of restructuring exsisting code to improve it's 
 
 This refactoring was done by:
 
-*Changing all non-semantic html elements into semantic elements.
-*Including an alt attribute in all the image elements
-*Fixing a broken link
-*Getting rid of redundant CSS class selectors (combined multiple class selectors into 1 class selector)
-\*Getting rid of id selctors that were uneccessary
+- Changing all non-semantic html elements into semantic elements.
+- Including an alt attribute in all the image elements
+- Fixing a broken link
+- Getting rid of redundant CSS class selectors (combined multiple class selectors into 1 class selector)
+- Getting rid of id selctors that were uneccessary
 
-## 1 Example of the html Code Refactoring
+## Example of the html Code Refactoring
 
 ```html
 <header>
@@ -46,9 +46,9 @@ This refactoring was done by:
 <figure class="hero"></figure>
 ```
 
-As you can see I introduced semantic elements to the code such as; <header>, <nav>, and <figure>
+As you can see I introduced semantic elements to the code such as; `html<header>, <nav>, and <figure>`
 
-## 1 Example of CSS Code Refactoring
+## Example of CSS Code Refactoring
 
 ```css
 /*  deleted all the 3 different class selctors (benefit-lead, benefit-brand, benefit-cost) and combined them into one selector and called it "aside-properties" as all three old selectors had the same properties. This is a huge time and space saver */
@@ -82,7 +82,7 @@ Main things I learned were:
 ## Author Info
 
 ```md
-### Matthew Gibson
+##Matthew Gibson
 
 - [Portfolio]https://github.com/ohSweetWampum)
 - [LinkedIn](https://www.linkedin.com/in/matthew-gibson-6b9b12237/)
@@ -95,7 +95,7 @@ Main things I learned were:
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2023] [ohSweetWampum]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
